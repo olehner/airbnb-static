@@ -1,0 +1,12 @@
+<ul class="list-inline text-center padded">
+  <% ["tick", "trick", "track"].each do |member| %>
+  <li>
+    <%= image_tag "#{member}.jpg", class: "img-circle", :width => '100', :height => '100' %>
+    <h3><%= member.capitalize %></h3>
+  </li>
+  <% end %>
+</ul>
+
+<div class="text-center padded">
+  <%= link_to "LeWagon and friends", "http://www.lewagon.com"%>
+</div>
